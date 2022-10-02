@@ -1,0 +1,10 @@
+.popular-movies-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.popular-movies-list {
+    position: relative;
+    display: flex;
+    overflow: auto;
+}

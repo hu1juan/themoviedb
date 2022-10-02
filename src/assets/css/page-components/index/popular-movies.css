@@ -1,0 +1,21 @@
+.popular-movies-list {
+    margin: 0;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.popular-movies-title {
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+    .popular-movies-title {
+        font-size: 24px;
+    }
+}

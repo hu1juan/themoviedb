@@ -1,0 +1,33 @@
+.searched-movies-list {
+    margin: 0;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.searched-movies-title {
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+    .searched-movies-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 255px) {
+    .searched-movies-list .movie-item {
+        width: 100%;
+    }
+
+    .searched-movies-list .movie-poster {
+        width: 100%;
+        height: auto;
+    }
+}

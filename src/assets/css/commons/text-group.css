@@ -1,0 +1,12 @@
+.text-list .text-title {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-weight: 700;
+}
+
+.text-list .text-item {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+}

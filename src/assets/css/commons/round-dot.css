@@ -1,0 +1,9 @@
+.round-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}

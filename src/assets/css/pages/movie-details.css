@@ -1,0 +1,78 @@
+.movie-details-container {
+    max-width: 1366px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.left-movie-details {
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+}
+
+.right-movie-details {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.movie-details-container .text-group,
+.movie-details-container .text-list {
+    margin-top: 30px;
+}
+
+.cast-list,
+.crew-list {
+    list-style: none;
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    height: auto;
+}
+
+.cast-list .card-item,
+.crew-list .card-item {
+    margin-bottom: 30px;
+    height: 300px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.cast-list .text-group,
+.crew-list .text-group {
+    white-space: normal;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.cast-list .text-group .text-value,
+.crew-list .text-group .text-value {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cast-title,
+.crew-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.crew-container {
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 800px) {
+    .left-movie-details {
+        display: block;
+        width: 100%;
+        padding-right: 0;
+    }
+}

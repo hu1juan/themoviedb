@@ -1,0 +1,15 @@
+.page-loader {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-loader.active {
+    display: flex;
+}

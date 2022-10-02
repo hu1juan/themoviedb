@@ -1,0 +1,8 @@
+.movie-genre {
+    background: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    margin-right: 15px;
+}
